@@ -1,4 +1,4 @@
-![img](/Organise-Your-Day.png)
+![img](/Organise-Your-Day.png | width=50)
 
 ---
 

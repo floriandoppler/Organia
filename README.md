@@ -1,2 +1,2 @@
-# Organia
-Organia™ | Organise your day
+# Organia™
+Organise your day

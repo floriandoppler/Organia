@@ -35,7 +35,7 @@ User-Interface (Design)  | 6 hours            | 2 hours
 Swift-Tutorials          | 3 hours            | 3 hours
 Versuche in Swift        | 2 hours            | 1 hour 30 minutes
 
-Florian Doppler: ~ 22 hours
+Florian Doppler: ~ 22 hours<br>
 Mia Mandel: ~ 18 hours
 
 ---

@@ -18,7 +18,7 @@ Without any planning and sketches, not a single app could be on the market like 
 
 ---
 
-#### Timetable
+#### Timetable ⏰
 To organise & structure a project in the best possible way, it is important to write down all the hours, where somebody sat down and put some work into it.
 
 Activity                 | Florian Doppler    | Mia Mandel

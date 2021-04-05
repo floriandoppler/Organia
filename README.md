@@ -18,5 +18,26 @@ Without any planning and sketches, not a single app could be on the market like 
 
 ---
 
+#### Timetable
+To organise & structure a project in the best possible way, it is important to write down all the hours, where somebody sat down and put some work into it.
+
+<br>
+
+Activity                 | Florian Doppler    | Mia Mandel
+:----------------------- | :----------------: | :--------:
+Projektantrag            | 1 hour             | 1 hour
+Meilensteinliste         | 40 minutes         | 40 minutes
+Projektplanung           | 1 hour 30 minutes  | 1 hour 30 minutes
+Projektauftrag           | 2 hours            | 2 hours
+Projektstrukturplan      | 2 hours            | 2 hours
+Arbeitspaket             | 1 hour 30 minutes  | 1 hour 30 minutes
+Zeit- & Ressourcenplan   | 1 hour             | 1 hour
+GitHub-Repository        | 1 hour 30 minutes  | 1 hour 30 minutes
+User-Interface (Design)  | 6 hours            | 2 hours
+Swift-Tutorials          | 3 hours            | 3 hours
+Versuche in Swift        | 2 hours            | 1 hour 30 minutes
+
+---
+
 Organia™ | Organise your day<br>
 A project by Florian Doppler & Mia Mandel, © 2021

@@ -31,7 +31,7 @@ Projektstrukturplan      | 2 hours            | 2 hours
 Arbeitspaket             | 1 hour 30 minutes  | 1 hour 30 minutes
 Zeit- & Ressourcenplan   | 1 hour             | 1 hour
 GitHub-Repository        | 1 hour 30 minutes  | 1 hour 30 minutes
-Logo Design              | 1 hour             | 1 hour
+Logo-Design              | 1 hour             | 1 hour
 GitHub-Repository        | 1 hour 30 minutes  | 1 hour 30 minutes
 User-Interface (Design)  | 6 hours            | 2 hours
 Swift-Tutorials          | 3 hours            | 3 hours

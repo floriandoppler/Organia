@@ -7,62 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B4D394D2629607A0044EE36 /* OrganiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D394C2629607A0044EE36 /* OrganiaApp.swift */; };
-		3B4D394F2629607A0044EE36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D394E2629607A0044EE36 /* ContentView.swift */; };
-		3B4D3951262960860044EE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4D3950262960860044EE36 /* Assets.xcassets */; };
-		3B4D3954262960860044EE36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4D3953262960860044EE36 /* Preview Assets.xcassets */; };
-		3B4D395F262960870044EE36 /* OrganiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D395E262960870044EE36 /* OrganiaTests.swift */; };
-		3B4D396A262960870044EE36 /* OrganiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4D3969262960870044EE36 /* OrganiaUITests.swift */; };
+		3BF26267262B57E8004A8CB9 /* OrganiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF26266262B57E8004A8CB9 /* OrganiaApp.swift */; };
+		3BF26269262B57E8004A8CB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF26268262B57E8004A8CB9 /* ContentView.swift */; };
+		3BF2626B262B57ED004A8CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF2626A262B57ED004A8CB9 /* Assets.xcassets */; };
+		3BF2626E262B57ED004A8CB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BF2626D262B57ED004A8CB9 /* Preview Assets.xcassets */; };
+		3BF26279262B57ED004A8CB9 /* OrganiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF26278262B57ED004A8CB9 /* OrganiaTests.swift */; };
+		3BF26284262B57ED004A8CB9 /* OrganiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF26283262B57ED004A8CB9 /* OrganiaUITests.swift */; };
+		3BF26295262B6587004A8CB9 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF26294262B6587004A8CB9 /* ToDoListView.swift */; };
+		3BF2629A262B663B004A8CB9 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF26299262B663B004A8CB9 /* ShoppingView.swift */; };
+		3BF2629F262B66BE004A8CB9 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2629E262B66BE004A8CB9 /* RemindersView.swift */; };
+		3BF262A4262B66F1004A8CB9 /* LoungeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF262A3262B66F1004A8CB9 /* LoungeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3B4D395B262960870044EE36 /* PBXContainerItemProxy */ = {
+		3BF26275262B57ED004A8CB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3B4D39412629607A0044EE36 /* Project object */;
+			containerPortal = 3BF2625B262B57E8004A8CB9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B4D39482629607A0044EE36;
+			remoteGlobalIDString = 3BF26262262B57E8004A8CB9;
 			remoteInfo = Organia;
 		};
-		3B4D3966262960870044EE36 /* PBXContainerItemProxy */ = {
+		3BF26280262B57ED004A8CB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3B4D39412629607A0044EE36 /* Project object */;
+			containerPortal = 3BF2625B262B57E8004A8CB9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B4D39482629607A0044EE36;
+			remoteGlobalIDString = 3BF26262262B57E8004A8CB9;
 			remoteInfo = Organia;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B4D39492629607A0044EE36 /* Organia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Organia.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4D394C2629607A0044EE36 /* OrganiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganiaApp.swift; sourceTree = "<group>"; };
-		3B4D394E2629607A0044EE36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3B4D3950262960860044EE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3B4D3953262960860044EE36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3B4D3955262960860044EE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B4D395A262960870044EE36 /* OrganiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4D395E262960870044EE36 /* OrganiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganiaTests.swift; sourceTree = "<group>"; };
-		3B4D3960262960870044EE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B4D3965262960870044EE36 /* OrganiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4D3969262960870044EE36 /* OrganiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganiaUITests.swift; sourceTree = "<group>"; };
-		3B4D396B262960870044EE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF26263262B57E8004A8CB9 /* Organia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Organia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF26266262B57E8004A8CB9 /* OrganiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganiaApp.swift; sourceTree = "<group>"; };
+		3BF26268262B57E8004A8CB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BF2626A262B57ED004A8CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF2626D262B57ED004A8CB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BF2626F262B57ED004A8CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF26274262B57ED004A8CB9 /* OrganiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF26278262B57ED004A8CB9 /* OrganiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganiaTests.swift; sourceTree = "<group>"; };
+		3BF2627A262B57ED004A8CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF2627F262B57ED004A8CB9 /* OrganiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrganiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF26283262B57ED004A8CB9 /* OrganiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganiaUITests.swift; sourceTree = "<group>"; };
+		3BF26285262B57ED004A8CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF26294262B6587004A8CB9 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		3BF26299262B663B004A8CB9 /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
+		3BF2629E262B66BE004A8CB9 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		3BF262A3262B66F1004A8CB9 /* LoungeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoungeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B4D39462629607A0044EE36 /* Frameworks */ = {
+		3BF26260262B57E8004A8CB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B4D3957262960870044EE36 /* Frameworks */ = {
+		3BF26271262B57ED004A8CB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B4D3962262960870044EE36 /* Frameworks */ = {
+		3BF2627C262B57ED004A8CB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,60 +80,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B4D39402629607A0044EE36 = {
+		3BF2625A262B57E8004A8CB9 = {
 			isa = PBXGroup;
 			children = (
-				3B4D394B2629607A0044EE36 /* Organia */,
-				3B4D395D262960870044EE36 /* OrganiaTests */,
-				3B4D3968262960870044EE36 /* OrganiaUITests */,
-				3B4D394A2629607A0044EE36 /* Products */,
+				3BF26265262B57E8004A8CB9 /* Organia */,
+				3BF26277262B57ED004A8CB9 /* OrganiaTests */,
+				3BF26282262B57ED004A8CB9 /* OrganiaUITests */,
+				3BF26264262B57E8004A8CB9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3B4D394A2629607A0044EE36 /* Products */ = {
+		3BF26264262B57E8004A8CB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B4D39492629607A0044EE36 /* Organia.app */,
-				3B4D395A262960870044EE36 /* OrganiaTests.xctest */,
-				3B4D3965262960870044EE36 /* OrganiaUITests.xctest */,
+				3BF26263262B57E8004A8CB9 /* Organia.app */,
+				3BF26274262B57ED004A8CB9 /* OrganiaTests.xctest */,
+				3BF2627F262B57ED004A8CB9 /* OrganiaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B4D394B2629607A0044EE36 /* Organia */ = {
+		3BF26265262B57E8004A8CB9 /* Organia */ = {
 			isa = PBXGroup;
 			children = (
-				3B4D394C2629607A0044EE36 /* OrganiaApp.swift */,
-				3B4D394E2629607A0044EE36 /* ContentView.swift */,
-				3B4D3950262960860044EE36 /* Assets.xcassets */,
-				3B4D3955262960860044EE36 /* Info.plist */,
-				3B4D3952262960860044EE36 /* Preview Content */,
+				3BF26266262B57E8004A8CB9 /* OrganiaApp.swift */,
+				3BF26268262B57E8004A8CB9 /* ContentView.swift */,
+				3BF26299262B663B004A8CB9 /* ShoppingView.swift */,
+				3BF262A3262B66F1004A8CB9 /* LoungeView.swift */,
+				3BF26294262B6587004A8CB9 /* ToDoListView.swift */,
+				3BF2629E262B66BE004A8CB9 /* RemindersView.swift */,
+				3BF2626A262B57ED004A8CB9 /* Assets.xcassets */,
+				3BF2626F262B57ED004A8CB9 /* Info.plist */,
+				3BF2626C262B57ED004A8CB9 /* Preview Content */,
 			);
 			path = Organia;
 			sourceTree = "<group>";
 		};
-		3B4D3952262960860044EE36 /* Preview Content */ = {
+		3BF2626C262B57ED004A8CB9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3B4D3953262960860044EE36 /* Preview Assets.xcassets */,
+				3BF2626D262B57ED004A8CB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3B4D395D262960870044EE36 /* OrganiaTests */ = {
+		3BF26277262B57ED004A8CB9 /* OrganiaTests */ = {
 			isa = PBXGroup;
 			children = (
-				3B4D395E262960870044EE36 /* OrganiaTests.swift */,
-				3B4D3960262960870044EE36 /* Info.plist */,
+				3BF26278262B57ED004A8CB9 /* OrganiaTests.swift */,
+				3BF2627A262B57ED004A8CB9 /* Info.plist */,
 			);
 			path = OrganiaTests;
 			sourceTree = "<group>";
 		};
-		3B4D3968262960870044EE36 /* OrganiaUITests */ = {
+		3BF26282262B57ED004A8CB9 /* OrganiaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3B4D3969262960870044EE36 /* OrganiaUITests.swift */,
-				3B4D396B262960870044EE36 /* Info.plist */,
+				3BF26283262B57ED004A8CB9 /* OrganiaUITests.swift */,
+				3BF26285262B57ED004A8CB9 /* Info.plist */,
 			);
 			path = OrganiaUITests;
 			sourceTree = "<group>";
@@ -133,13 +145,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B4D39482629607A0044EE36 /* Organia */ = {
+		3BF26262262B57E8004A8CB9 /* Organia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B4D396E262960870044EE36 /* Build configuration list for PBXNativeTarget "Organia" */;
+			buildConfigurationList = 3BF26288262B57ED004A8CB9 /* Build configuration list for PBXNativeTarget "Organia" */;
 			buildPhases = (
-				3B4D39452629607A0044EE36 /* Sources */,
-				3B4D39462629607A0044EE36 /* Frameworks */,
-				3B4D39472629607A0044EE36 /* Resources */,
+				3BF2625F262B57E8004A8CB9 /* Sources */,
+				3BF26260262B57E8004A8CB9 /* Frameworks */,
+				3BF26261262B57E8004A8CB9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,68 +159,68 @@
 			);
 			name = Organia;
 			productName = Organia;
-			productReference = 3B4D39492629607A0044EE36 /* Organia.app */;
+			productReference = 3BF26263262B57E8004A8CB9 /* Organia.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B4D3959262960870044EE36 /* OrganiaTests */ = {
+		3BF26273262B57ED004A8CB9 /* OrganiaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B4D3971262960870044EE36 /* Build configuration list for PBXNativeTarget "OrganiaTests" */;
+			buildConfigurationList = 3BF2628B262B57ED004A8CB9 /* Build configuration list for PBXNativeTarget "OrganiaTests" */;
 			buildPhases = (
-				3B4D3956262960870044EE36 /* Sources */,
-				3B4D3957262960870044EE36 /* Frameworks */,
-				3B4D3958262960870044EE36 /* Resources */,
+				3BF26270262B57ED004A8CB9 /* Sources */,
+				3BF26271262B57ED004A8CB9 /* Frameworks */,
+				3BF26272262B57ED004A8CB9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B4D395C262960870044EE36 /* PBXTargetDependency */,
+				3BF26276262B57ED004A8CB9 /* PBXTargetDependency */,
 			);
 			name = OrganiaTests;
 			productName = OrganiaTests;
-			productReference = 3B4D395A262960870044EE36 /* OrganiaTests.xctest */;
+			productReference = 3BF26274262B57ED004A8CB9 /* OrganiaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3B4D3964262960870044EE36 /* OrganiaUITests */ = {
+		3BF2627E262B57ED004A8CB9 /* OrganiaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B4D3974262960870044EE36 /* Build configuration list for PBXNativeTarget "OrganiaUITests" */;
+			buildConfigurationList = 3BF2628E262B57ED004A8CB9 /* Build configuration list for PBXNativeTarget "OrganiaUITests" */;
 			buildPhases = (
-				3B4D3961262960870044EE36 /* Sources */,
-				3B4D3962262960870044EE36 /* Frameworks */,
-				3B4D3963262960870044EE36 /* Resources */,
+				3BF2627B262B57ED004A8CB9 /* Sources */,
+				3BF2627C262B57ED004A8CB9 /* Frameworks */,
+				3BF2627D262B57ED004A8CB9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B4D3967262960870044EE36 /* PBXTargetDependency */,
+				3BF26281262B57ED004A8CB9 /* PBXTargetDependency */,
 			);
 			name = OrganiaUITests;
 			productName = OrganiaUITests;
-			productReference = 3B4D3965262960870044EE36 /* OrganiaUITests.xctest */;
+			productReference = 3BF2627F262B57ED004A8CB9 /* OrganiaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3B4D39412629607A0044EE36 /* Project object */ = {
+		3BF2625B262B57E8004A8CB9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					3B4D39482629607A0044EE36 = {
+					3BF26262262B57E8004A8CB9 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					3B4D3959262960870044EE36 = {
+					3BF26273262B57ED004A8CB9 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 3B4D39482629607A0044EE36;
+						TestTargetID = 3BF26262262B57E8004A8CB9;
 					};
-					3B4D3964262960870044EE36 = {
+					3BF2627E262B57ED004A8CB9 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 3B4D39482629607A0044EE36;
+						TestTargetID = 3BF26262262B57E8004A8CB9;
 					};
 				};
 			};
-			buildConfigurationList = 3B4D39442629607A0044EE36 /* Build configuration list for PBXProject "Organia" */;
+			buildConfigurationList = 3BF2625E262B57E8004A8CB9 /* Build configuration list for PBXProject "Organia" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +228,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 3B4D39402629607A0044EE36;
-			productRefGroup = 3B4D394A2629607A0044EE36 /* Products */;
+			mainGroup = 3BF2625A262B57E8004A8CB9;
+			productRefGroup = 3BF26264262B57E8004A8CB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B4D39482629607A0044EE36 /* Organia */,
-				3B4D3959262960870044EE36 /* OrganiaTests */,
-				3B4D3964262960870044EE36 /* OrganiaUITests */,
+				3BF26262262B57E8004A8CB9 /* Organia */,
+				3BF26273262B57ED004A8CB9 /* OrganiaTests */,
+				3BF2627E262B57ED004A8CB9 /* OrganiaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B4D39472629607A0044EE36 /* Resources */ = {
+		3BF26261262B57E8004A8CB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4D3954262960860044EE36 /* Preview Assets.xcassets in Resources */,
-				3B4D3951262960860044EE36 /* Assets.xcassets in Resources */,
+				3BF2626E262B57ED004A8CB9 /* Preview Assets.xcassets in Resources */,
+				3BF2626B262B57ED004A8CB9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B4D3958262960870044EE36 /* Resources */ = {
+		3BF26272262B57ED004A8CB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B4D3963262960870044EE36 /* Resources */ = {
+		3BF2627D262B57ED004A8CB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,48 +267,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B4D39452629607A0044EE36 /* Sources */ = {
+		3BF2625F262B57E8004A8CB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4D394F2629607A0044EE36 /* ContentView.swift in Sources */,
-				3B4D394D2629607A0044EE36 /* OrganiaApp.swift in Sources */,
+				3BF262A4262B66F1004A8CB9 /* LoungeView.swift in Sources */,
+				3BF2629A262B663B004A8CB9 /* ShoppingView.swift in Sources */,
+				3BF26295262B6587004A8CB9 /* ToDoListView.swift in Sources */,
+				3BF2629F262B66BE004A8CB9 /* RemindersView.swift in Sources */,
+				3BF26269262B57E8004A8CB9 /* ContentView.swift in Sources */,
+				3BF26267262B57E8004A8CB9 /* OrganiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B4D3956262960870044EE36 /* Sources */ = {
+		3BF26270262B57ED004A8CB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4D395F262960870044EE36 /* OrganiaTests.swift in Sources */,
+				3BF26279262B57ED004A8CB9 /* OrganiaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B4D3961262960870044EE36 /* Sources */ = {
+		3BF2627B262B57ED004A8CB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4D396A262960870044EE36 /* OrganiaUITests.swift in Sources */,
+				3BF26284262B57ED004A8CB9 /* OrganiaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B4D395C262960870044EE36 /* PBXTargetDependency */ = {
+		3BF26276262B57ED004A8CB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B4D39482629607A0044EE36 /* Organia */;
-			targetProxy = 3B4D395B262960870044EE36 /* PBXContainerItemProxy */;
+			target = 3BF26262262B57E8004A8CB9 /* Organia */;
+			targetProxy = 3BF26275262B57ED004A8CB9 /* PBXContainerItemProxy */;
 		};
-		3B4D3967262960870044EE36 /* PBXTargetDependency */ = {
+		3BF26281262B57ED004A8CB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B4D39482629607A0044EE36 /* Organia */;
-			targetProxy = 3B4D3966262960870044EE36 /* PBXContainerItemProxy */;
+			target = 3BF26262262B57E8004A8CB9 /* Organia */;
+			targetProxy = 3BF26280262B57ED004A8CB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B4D396C262960870044EE36 /* Debug */ = {
+		3BF26286262B57ED004A8CB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		3B4D396D262960870044EE36 /* Release */ = {
+		3BF26287262B57ED004A8CB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,13 +428,14 @@
 			};
 			name = Release;
 		};
-		3B4D396F262960870044EE36 /* Debug */ = {
+		3BF26289262B57ED004A8CB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Organia/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F7Q3786MP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Organia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -433,13 +450,14 @@
 			};
 			name = Debug;
 		};
-		3B4D3970262960870044EE36 /* Release */ = {
+		3BF2628A262B57ED004A8CB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Organia/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F7Q3786MP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Organia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -454,7 +472,7 @@
 			};
 			name = Release;
 		};
-		3B4D3972262960870044EE36 /* Debug */ = {
+		3BF2628C262B57ED004A8CB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -475,7 +493,7 @@
 			};
 			name = Debug;
 		};
-		3B4D3973262960870044EE36 /* Release */ = {
+		3BF2628D262B57ED004A8CB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -496,7 +514,7 @@
 			};
 			name = Release;
 		};
-		3B4D3975262960870044EE36 /* Debug */ = {
+		3BF2628F262B57ED004A8CB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -515,7 +533,7 @@
 			};
 			name = Debug;
 		};
-		3B4D3976262960870044EE36 /* Release */ = {
+		3BF26290262B57ED004A8CB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -537,43 +555,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B4D39442629607A0044EE36 /* Build configuration list for PBXProject "Organia" */ = {
+		3BF2625E262B57E8004A8CB9 /* Build configuration list for PBXProject "Organia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B4D396C262960870044EE36 /* Debug */,
-				3B4D396D262960870044EE36 /* Release */,
+				3BF26286262B57ED004A8CB9 /* Debug */,
+				3BF26287262B57ED004A8CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B4D396E262960870044EE36 /* Build configuration list for PBXNativeTarget "Organia" */ = {
+		3BF26288262B57ED004A8CB9 /* Build configuration list for PBXNativeTarget "Organia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B4D396F262960870044EE36 /* Debug */,
-				3B4D3970262960870044EE36 /* Release */,
+				3BF26289262B57ED004A8CB9 /* Debug */,
+				3BF2628A262B57ED004A8CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B4D3971262960870044EE36 /* Build configuration list for PBXNativeTarget "OrganiaTests" */ = {
+		3BF2628B262B57ED004A8CB9 /* Build configuration list for PBXNativeTarget "OrganiaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B4D3972262960870044EE36 /* Debug */,
-				3B4D3973262960870044EE36 /* Release */,
+				3BF2628C262B57ED004A8CB9 /* Debug */,
+				3BF2628D262B57ED004A8CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B4D3974262960870044EE36 /* Build configuration list for PBXNativeTarget "OrganiaUITests" */ = {
+		3BF2628E262B57ED004A8CB9 /* Build configuration list for PBXNativeTarget "OrganiaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B4D3975262960870044EE36 /* Debug */,
-				3B4D3976262960870044EE36 /* Release */,
+				3BF2628F262B57ED004A8CB9 /* Debug */,
+				3BF26290262B57ED004A8CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3B4D39412629607A0044EE36 /* Project object */;
+	rootObject = 3BF2625B262B57E8004A8CB9 /* Project object */;
 }

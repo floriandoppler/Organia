@@ -2,94 +2,52 @@
 //  ContentView.swift
 //  Organia
 //
-//  Created by Florian Doppler on 16.04.21.
+//  Created by Florian Doppler on 17.04.21.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("Organise-Your-Day")
-            .resizable()
-            .scaledToFit()
-            .aspectRatio(2, contentMode: .fit)
-        
         NavigationView {
-            NavigationLink(destination: Text("Funktionalität im Aufbau")) {
-                VStack(alignment: .leading) {
-                    Text("Welcome back!")
-                        .font(.system(size: 35))
-                        .fontWeight(.bold)
-                        .foregroundColor(Color.black)
-                        .padding(20)
+            ScrollView {
+                VStack {
+                    Image("Organise-Your-Day")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 140)
+                        .padding(EdgeInsets(top: -75, leading: 0, bottom: 0, trailing: 0))
                     
-                    HStack {
-                        Image(systemName: "list.bullet")
-                            .padding(10)
+                    Spacer()
+                    
+                    VStack {
+                        NavigationLink(
+                            destination: ToDoListView()) {
+                            ListItemView(title: "To-Do-List", subtitle: "Set your daily routine", icon: "list.bullet", color: "Rose")
+                        }
                         
-                        Text("To-Do-List")
-                            .font(.system(size: 30))
-                            .fontWeight(.semibold)
-                            .padding(10)
-                        Spacer()
-                        Image(systemName: "chevron.right")
-                            .padding(10)
+                        NavigationLink(
+                            destination: ShoppingView()) {
+                            ListItemView(title: "Shopping", subtitle: "Write down your essentials", icon: "cart", color: "Yellow")
+                        }
+                        
+                        NavigationLink(
+                            destination: RemindersView()) {
+                            ListItemView(title: "Reminders", subtitle: "Never miss a thing", icon: "bell", color: "Light-Blue")
+                        }
+                        
+                        NavigationLink(
+                            destination: LoungeView()) {
+                            ListItemView(title: "Lounge", subtitle: "Express your creativity", icon: "paintbrush", color: "Pink")
+                        }
                     }
-                    .foregroundColor(Color.white)
-                    .background(Color.red)
-                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 5, trailing: 20))
-                    .cornerRadius(20)
                     
-                    HStack {
-                        Image(systemName: "cart")
-                            .padding(10)
-                        Text("Shopping")
-                            .font(.system(size: 30))
-                            .fontWeight(.semibold)
-                            .padding(10)
-                        Spacer()
-                        Image(systemName: "chevron.right")
-                            .padding(10)
-                    }
-                    .cornerRadius(20)
-                    .foregroundColor(Color.white)
-                    .background(Color.yellow)
-                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 5, trailing: 20))
+                    Spacer()
                     
-                    HStack {
-                        Image(systemName: "bell")
-                            .padding(10)
-                        Text("Reminders")
-                            .font(.system(size: 30))
-                            .fontWeight(.bold)
-                            .padding(10)
-                        Spacer()
-                        Image(systemName: "chevron.right")
-                            .padding(10)
-                    }
-                    .foregroundColor(Color.white)
-                    .background(Color.blue)
-                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 5, trailing: 20))
-                    .cornerRadius(20)
-                    
-                    HStack {
-                        Image(systemName: "paintbrush")
-                            .padding(10)
-                        Text("Lounge")
-                            .font(.system(size: 30))
-                            .fontWeight(.bold)
-                            .padding(10)
-                        Spacer()
-                        Image(systemName: "chevron.right")
-                            .padding(10)
-                    }
-                    .foregroundColor(Color.white)
-                    .background(Color.purple)
-                    .padding(EdgeInsets(top: 0, leading: 20, bottom: 5, trailing: 20))
-                    .cornerRadius(20)
                 }
+                .padding(.bottom, 200)
+                .edgesIgnoringSafeArea(.all)
             }
-            .padding(EdgeInsets(top: -350, leading: 0, bottom: 0, trailing: 0))
         }
     }
 }
@@ -97,5 +55,38 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct ListItemView: View {
+    var title: String
+    var subtitle: String
+    var icon: String
+    var color: String
+    
+    var body: some View {
+        HStack(spacing: 25) {
+            Image(systemName: icon)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 40, height: 40)
+            
+            VStack(alignment: .leading) {
+                Text(title)
+                    .font(.title)
+                    .fontWeight(.bold)
+                Text(subtitle)
+                    .font(.system(size: 12))
+                    .fontWeight(.medium)
+            }
+            Spacer()
+            Image(systemName: "chevron.right")
+        }
+        .padding(EdgeInsets(top: 10, leading: 25, bottom: 10, trailing: 25))
+        .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+        .background(Color(color))
+        .cornerRadius(25)
+        .foregroundColor(.white)
+        .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
     }
 }

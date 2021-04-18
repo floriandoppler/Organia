@@ -22,7 +22,7 @@ Without any planning and sketches, not a single app could be on the market like 
 To organise & structure a project in the best possible way, it is important to write down all the hours, where somebody sat down and put some work into it.
 
 Datum        |   Activity                 |   Florian Doppler     |   Mia Mandel
-:---------:  |   :----------------------  |   :----------------:  |   :--------:
+:---------:  |   :----------------------  |   :-----------------  |   :---------
 11.12.2020   |   Logo-Design              |   1 hour              |   1 hour
 14.12.2020   |   Projektantrag            |   1 hour              |   1 hour
 12.01.2021   |   Meilensteinliste         |   40 minutes          |   40 minutes

@@ -21,22 +21,21 @@ Without any planning and sketches, not a single app could be on the market like 
 #### Timetable ⏰
 To organise & structure a project in the best possible way, it is important to write down all the hours, where somebody sat down and put some work into it.
 
-Activity                 | Florian Doppler    | Mia Mandel
-:----------------------- | :----------------: | :--------:
-Projektantrag            | 1 hour             | 1 hour
-Meilensteinliste         | 40 minutes         | 40 minutes
-Projektplanung           | 1 hour 30 minutes  | 1 hour 30 minutes
-Projektauftrag           | 2 hours            | 2 hours
-Projektstrukturplan      | 2 hours            | 2 hours
-Arbeitspaket             | 1 hour 30 minutes  | 1 hour 30 minutes
-Zeit- & Ressourcenplan   | 1 hour             | 1 hour
-GitHub-Repository        | 1 hour 30 minutes  | 1 hour 30 minutes
-Logo-Design              | 1 hour             | 1 hour
-GitHub-Repository        | 1 hour 30 minutes  | 1 hour 30 minutes
-User-Interface (Design)  | 6 hours            | 2 hours
-Swift-Tutorials          | 3 hours            | 3 hours
-Versuche in Swift        | 4 hours            | 3 hour 30 minutes
-Startseite (Menü)        | 3 hours            | 3 hours
+Datum       | Activity                 | Florian Doppler    | Mia Mandel
+:---------: | :----------------------- | :----------------: | :--------:
+11.12.2020  | Logo-Design              | 1 hour             | 1 hour
+14.12.2020  | Projektantrag            | 1 hour             | 1 hour
+12.01.2021  | Meilensteinliste         | 40 minutes         | 40 minutes
+22.01.2021  | Projektplanung           | 1 hour 30 minutes  | 1 hour 30 minutes
+25.01.2021  | Projektauftrag           | 2 hours            | 2 hours
+18.02.2021  | Projektstrukturplan      | 2 hours            | 2 hours
+28.02.2021  | Arbeitspaket             | 1 hour 30 minutes  | 1 hour 30 minutes
+08.03.2021  | Zeit- & Ressourcenplan   | 1 hour             | 1 hour
+16.03.2021  | GitHub-Repository        | 1 hour 30 minutes  | 1 hour 30 minutes
+20.03.2021  | Swift-Tutorials          | 3 hours            | 3 hours
+03.04.2021  | User-Interface (Design)  | 6 hours            | 2 hours
+14.04.2021  | Versuche in Swift        | 4 hours            | 3 hour 30 minutes
+18.04.2021  | Startseite (Menü)        | 3 hours            | 3 hours
 
 Florian Doppler: ~ 28 hours<br>
 Mia Mandel: ~ 24 hours

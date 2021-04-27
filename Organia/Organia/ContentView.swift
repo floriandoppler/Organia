@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 VStack {
                     Image("Organise-Your-Day")
                         .resizable()

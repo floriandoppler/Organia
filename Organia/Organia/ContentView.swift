@@ -28,7 +28,7 @@ struct ContentView: View {
                         
                         NavigationLink(
                             destination: ShoppingView()) {
-                            ListItemView(title: "Shopping", subtitle: "Write down your essentials", icon: "cart", color: "Yellow")
+                            ListItemView(title: "Shopping", subtitle: "Mark your essentials", icon: "cart", color: "Yellow")
                         }
                         
                         NavigationLink(
@@ -36,16 +36,38 @@ struct ContentView: View {
                             ListItemView(title: "Reminders", subtitle: "Never miss a thing", icon: "bell", color: "Light-Blue")
                         }
                         
+//                        NavigationLink(
+//                            destination: LoungeView()) {
+//                            ListItemView(title: "Lounge", subtitle: "Express your creativity", icon: "paintbrush", color: "Pink")
+//                        }
+                        
                         NavigationLink(
-                            destination: LoungeView()) {
-                            ListItemView(title: "Lounge", subtitle: "Express your creativity", icon: "paintbrush", color: "Pink")
+                            destination: AboutUsView()) {
+                            ListItemView(title: "About Us", subtitle: "Get to know us", icon: "person", color: "Pink")
                         }
                     }
                     
                     Spacer()
                     
+                    VStack(alignment: .center) {
+                        HStack {
+                            Text("Made with")
+                                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                            
+                            Image(systemName: "heart.fill")
+                        }
+                        
+                        Spacer()
+                        
+                        HStack {
+                            Text("Organia, 2021")
+                                .fontWeight(.bold)
+                        }
+                    }
+                    .foregroundColor(Color.organiaGray)
+                    .padding(EdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20))
+                    
                 }
-                .padding(.bottom, 200)
                 .edgesIgnoringSafeArea(.all)
             }
         }
@@ -89,4 +111,8 @@ struct ListItemView: View {
         .foregroundColor(.white)
         .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
     }
+}
+
+extension Color {
+    static let organiaGray = Color("Gray")
 }

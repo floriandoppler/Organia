@@ -32,8 +32,8 @@ struct ContentView: View {
                         }
                         
                         NavigationLink(
-                            destination: RemindersView()) {
-                            ListItemView(title: "Reminders", subtitle: "Never miss a thing", icon: "bell", color: "Light-Blue")
+                            destination: CalculatorView()) {
+                            ListItemView(title: "Calculator", subtitle: "Keep your head cool", icon: "x.squareroot", color: "Light-Blue")
                         }
                         
 //                        NavigationLink(

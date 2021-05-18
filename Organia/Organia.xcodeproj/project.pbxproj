@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B6339482653921C002444C2 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6339472653921C002444C2 /* CalculatorView.swift */; };
 		3B6E0C8D26333231002B68C7 /* TaskFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E0C8C26333231002B68C7 /* TaskFiles.swift */; };
 		3BA12BE7263403320070DE7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA12BE6263403310070DE7A /* LaunchScreen.storyboard */; };
 		3BF1F168263A928C00F92770 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1F167263A928C00F92770 /* AboutUsView.swift */; };
@@ -18,7 +19,6 @@
 		3BF26284262B57ED004A8CB9 /* OrganiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF26283262B57ED004A8CB9 /* OrganiaUITests.swift */; };
 		3BF26295262B6587004A8CB9 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF26294262B6587004A8CB9 /* ToDoListView.swift */; };
 		3BF2629A262B663B004A8CB9 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF26299262B663B004A8CB9 /* ShoppingView.swift */; };
-		3BF2629F262B66BE004A8CB9 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2629E262B66BE004A8CB9 /* RemindersView.swift */; };
 		3BF262A4262B66F1004A8CB9 /* LoungeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF262A3262B66F1004A8CB9 /* LoungeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B6339472653921C002444C2 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		3B6E0C8C26333231002B68C7 /* TaskFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiles.swift; sourceTree = "<group>"; };
 		3BA12BE6263403310070DE7A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BF1F167263A928C00F92770 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		3BF26285262B57ED004A8CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BF26294262B6587004A8CB9 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		3BF26299262B663B004A8CB9 /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
-		3BF2629E262B66BE004A8CB9 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
 		3BF262A3262B66F1004A8CB9 /* LoungeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoungeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,9 +115,9 @@
 				3BF26299262B663B004A8CB9 /* ShoppingView.swift */,
 				3BF262A3262B66F1004A8CB9 /* LoungeView.swift */,
 				3BF26294262B6587004A8CB9 /* ToDoListView.swift */,
+				3B6339472653921C002444C2 /* CalculatorView.swift */,
 				3BF1F167263A928C00F92770 /* AboutUsView.swift */,
 				3B6E0C8C26333231002B68C7 /* TaskFiles.swift */,
-				3BF2629E262B66BE004A8CB9 /* RemindersView.swift */,
 				3BF2626A262B57ED004A8CB9 /* Assets.xcassets */,
 				3BF2626F262B57ED004A8CB9 /* Info.plist */,
 				3BF2626C262B57ED004A8CB9 /* Preview Content */,
@@ -285,7 +285,7 @@
 				3BF2629A262B663B004A8CB9 /* ShoppingView.swift in Sources */,
 				3BF1F168263A928C00F92770 /* AboutUsView.swift in Sources */,
 				3BF26295262B6587004A8CB9 /* ToDoListView.swift in Sources */,
-				3BF2629F262B66BE004A8CB9 /* RemindersView.swift in Sources */,
+				3B6339482653921C002444C2 /* CalculatorView.swift in Sources */,
 				3BF26269262B57E8004A8CB9 /* ContentView.swift in Sources */,
 				3BF26267262B57E8004A8CB9 /* OrganiaApp.swift in Sources */,
 				3B6E0C8D26333231002B68C7 /* TaskFiles.swift in Sources */,

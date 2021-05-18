@@ -21,8 +21,8 @@ Without any planning and sketches, not a single app could be on the market like 
 #### Timetable ⏰
 To organise & structure a project in the best possible way, it is important to write down all the hours, where somebody sat down and put some work into it.
 
-Datum        |   Activity                 |   Florian Doppler     |   Mia Mandel
-:---------:  |   :----------------------  |   :-----------------  |   :---------
+Date         |   Activity                 |   Florian Doppler     |   Mia Mandel
+:----------  |   :----------------------  |   :-----------------  |   :---------
 11.12.2020   |   Logo-Design              |   1 hour              |   1 hour
 14.12.2020   |   Projektantrag            |   1 hour              |   1 hour
 12.01.2021   |   Meilensteinliste         |   40 minutes          |   40 minutes
@@ -36,9 +36,13 @@ Datum        |   Activity                 |   Florian Doppler     |   Mia Mandel
 03.04.2021   |   User-Interface (Design)  |   6 hours             |   2 hours
 14.04.2021   |   Versuche in Swift        |   4 hours             |   3 hour 30 minutes
 18.04.2021   |   Startseite (Menü)        |   3 hours             |   3 hours
+26.04.2021   |   To-Do-Liste              |   4 hours             |   4 hours
+09.05.2021   |   Einkaufsliste            |   3 hours 30 minutes  |   3 hours
+09.05.2021   |   About-Us                 |   1 hour              |   ---
 
-Florian Doppler: ~ 28 hours<br>
-Mia Mandel: ~ 24 hours
+
+Florian Doppler: ~ 36.5 hours<br>
+Mia Mandel: ~ 31 hours
 
 ---
 

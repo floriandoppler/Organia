@@ -38,11 +38,14 @@ Date         |   Activity                 |   Florian Doppler     |   Mia Mandel
 18.04.2021   |   Startseite (Menü)        |   3 hours             |   3 hours
 26.04.2021   |   To-Do-Liste              |   4 hours             |   4 hours
 09.05.2021   |   Einkaufsliste            |   3 hours 30 minutes  |   3 hours
-09.05.2021   |   About-Us                 |   1 hour              |   ---
+15.05.2021   |   About-Us                 |   2 hour              |   2 hours
+25.05.2021   |   Taschenrechner           |   2 hours             |   4 hours
+06.06.2021   |   Feinschliffe             |   3 hours             |   3 hours
+12.06.2021   |   Keynote                  |   1 hour              |   1 hour
+17.06.2021   |   Projektabschlussbericht  |   1 hour 30 minutes   |   1 hour 30 minutes
 
-
-Florian Doppler: ~ 36.5 hours<br>
-Mia Mandel: ~ 31 hours
+Florian Doppler: ~ 45 hours<br>
+Mia Mandel: ~ 41 hours 30 minutes
 
 ---
 

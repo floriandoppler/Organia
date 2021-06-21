@@ -19,7 +19,7 @@ Without any planning and sketches, not a single app could be on the market like 
 ---
 
 ### #2 - A short video about our app 🎞
-<iframe src="https://github.com/floriandoppler/Organia/raw/main/Keynote/Organia-Short-Film.mp4">
+<iframe src="https://youtu.be/rEfeKBXJM8M" width="50%"></iframe>
 
 ---
 

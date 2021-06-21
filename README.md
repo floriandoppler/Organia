@@ -10,16 +10,11 @@ So... just wait here, we'll be back in a minute! Until then, stay safe - see you
 
 ---
 
-### #1 - User-Interface 📱
+### #1 - User-Interface-Design (Idea) 📱
 Without any planning and sketches, not a single app could be on the market like it is today. Our goal is to create a timeless design, which is minimalistic and refined with beautiful pastel-colours. Everyone should be happy while keeping an eye on our app - we're working hard on that! 🙂
 
 <img src="https://github.com/floriandoppler/Organia/raw/main/All-Screens.jpg"/>
 <img src="https://github.com/floriandoppler/Organia/raw/main/Six-Screens.jpg"/>
-
----
-
-### #2 - A short video about our app 🎞
-<iframe src="https://www.youtube.com/embed/rEfeKBXJM8M" width="50%"></iframe>
 
 ---
 

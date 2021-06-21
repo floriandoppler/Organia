@@ -18,6 +18,10 @@ Without any planning and sketches, not a single app could be on the market like 
 
 ---
 
+### #2 - A short video about our app 🎞
+
+---
+
 #### Timetable ⏰
 To organise & structure a project in the best possible way, it is important to write down all the hours, where somebody sat down and put some work into it.
 

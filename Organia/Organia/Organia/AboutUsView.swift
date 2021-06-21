@@ -12,14 +12,16 @@ struct AboutUsView: View {
         ScrollView(showsIndicators: false) {
             VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/) {
                 HStack {
-                    AboutMeView(memojiImage: "Florian-MacBook-Circle", name: "Florian Doppler", description: "16 years old, Vöcklabruck", tasks: "Management | Design | Development")
+                    AboutMeView(memojiImage: "Florian-MacBook-Circle", name: "Florian Doppler", description: "16 years old, Vöcklabruck", firstTask: "• Management", secondTask: "• Design", thirdTask: "• Development")
                 }
             }
             
+            Divider()
+                .padding(EdgeInsets(top: 0, leading: 40, bottom: 0, trailing: 40))
             
             VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/) {
                 HStack {
-                    AboutMeView(memojiImage: "Mia-MacBook-Circle", name: "Mia Mandel", description: "16 years old, Leonding", tasks: "Management | Design | Development")
+                    AboutMeView(memojiImage: "Mia-MacBook-Circle", name: "Mia Mandel", description: "17 years old, Leonding", firstTask: "• Management", secondTask: "• Design", thirdTask: "• Development")
                 }
             }
         }.navigationBarTitle("About Us")
@@ -36,7 +38,9 @@ struct AboutMeView: View {
     var memojiImage: String
     var name: String
     var description: String
-    var tasks: String
+    var firstTask: String
+    var secondTask: String
+    var thirdTask: String
     
     var body: some View {
         VStack {
@@ -57,10 +61,17 @@ struct AboutMeView: View {
             
             Spacer()
             
-            Text(tasks)
+            VStack(alignment: .leading) {
+                Text(firstTask)
+                    .bold()
+                Text(secondTask)
+                    .bold()
+                Text(thirdTask)
+                    .bold()
+            }.padding(EdgeInsets(top: 0, leading: 0, bottom: 20, trailing: 0))
         }
         .foregroundColor(.black)
-        .padding(10)
+        .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 5))
 
     }
 }

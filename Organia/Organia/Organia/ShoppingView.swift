@@ -200,7 +200,7 @@ struct ShoppingItemView: View {
     
     var body: some View {
         Button (action: {
-            self.didTap = true
+            self.didTap.toggle()
             
         }) {
             VStack(spacing: 15) {
